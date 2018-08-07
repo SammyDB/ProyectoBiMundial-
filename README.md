@@ -25,6 +25,17 @@ países
 lombia, croacia, dinamarca, 
 espania,  francia,  inglaterra,  japon,  mexico,  panama,  polonia,  portugal,  rusia,  senegal,  suecia, 
 suiza, tunez, uruguay
-•
+
+
 Identificar y seleccionar las herramientas necesarias para procesar y analizar datos provenientes 
 de Twitter
+
+Método
+
+En este proyecto realizamos una recopilación de datos del mundial mediante los tweets, para ello utilizamos la Api de twitter la cual nos permité recolectar los tweets. A continuacion guardamos los tweets en una base de datos en nuestro caso couchDB en donde filtraremos cada uno de los datos por medio del idioma Ingles y sin emoticones ademas de Hagshtags referidos al mundial 
+
+• Resultados
+
+Los resultados seran presentados en graficas las cuales se encuentran en las respectivas carpetas 
+• Conclusiones y trabajo futuro
+• Apéndice: instrucciones de instalación y funcionamiento
