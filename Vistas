@@ -1,0 +1,46 @@
+Vista para Francia y Bélgica,Rusia 10 de julio
+function(doc) {
+  var a=doc.created_at;
+  var fecha=a.substring(4,10)
+  if(fecha=='Jul 10' && doc.lang=='en'){
+        var str = doc.text.replace(/[^a-zA-Z 0-9]+/g,'');
+        str = str.toUpperCase()
+  	var hora=a.substring(11,13);
+        emit(hora,str);
+	}
+}
+Vista para Croacia e inglaterra, Rusia 11 de julio
+function(doc) {
+  var a=doc.created_at;
+  var fecha=a.substring(4,10)
+  if(fecha=='Jul 11' && doc.lang=='en'){
+        var str = doc.text.replace(/[^a-zA-Z 0-9]+/g,'');
+        str = str.toUpperCase()
+  	var hora=a.substring(11,13);
+        emit(hora,str);
+	}
+}
+
+Vista para Bégica e Inglaterra, Rusia 14 de julio
+function(doc) {
+  var a=doc.created_at;
+  var fecha=a.substring(4,10)
+  if(fecha=='Jul 14' && doc.lang=='en'){
+        var str = doc.text.replace(/[^a-zA-Z 0-9]+/g,'');
+        str = str.toUpperCase()
+  	var hora=a.substring(11,13);
+        emit(hora,str);
+	}
+}
+
+Vista para Francia,Croacia, Rusia 15 de julio
+function(doc) {
+  var a=doc.created_at;
+  var fecha=a.substring(4,10)
+  if(fecha=='Jul 15' && doc.lang=='en'){
+        var str = doc.text.replace(/[^a-zA-Z 0-9]+/g,'');
+        str = str.toUpperCase()
+  	var hora=a.substring(11,13);
+        emit(hora,str);
+	}
+}
